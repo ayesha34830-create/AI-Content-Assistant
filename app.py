@@ -1,6 +1,3 @@
-%%writefile app.py
-
-
 import os
 
 import streamlit as st
