@@ -30,8 +30,20 @@ st.markdown(
         }
 
         [data-testid="stSidebar"] * {
-            color: #f9fafb;
-        }
+    color: #f9fafb;
+}
+
+[data-testid="stSidebar"] div[data-baseweb="select"] * {
+    color: #111827 !important;
+}
+
+[data-testid="stSidebar"] input {
+    color: #111827 !important;
+}
+
+[data-testid="stSidebar"] input::placeholder {
+    color: #6b7280 !important;
+}
 
         .hero {
             padding: 2rem 2.2rem;
