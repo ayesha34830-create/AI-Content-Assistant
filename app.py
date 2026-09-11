@@ -246,7 +246,7 @@ Do not mention that you are an AI. Do not explain your process.
 
     with st.spinner("Creating your content..."):
         response = client.chat.completions.create(
-            model="llama-3.1-8b-instant",
+             model="openai/gpt-oss-20b",
             messages=[
                 {
                     "role": "system",
